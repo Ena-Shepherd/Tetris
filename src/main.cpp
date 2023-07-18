@@ -47,7 +47,7 @@ int main(){
 	Sprite spr(tex);
 	Shader shader;
 
-	shader.loadFromFile("../shaders/firetunnel.glsl", Shader::Fragment); // load the shader
+	shader.loadFromFile("../shaders/evangelion.glsl", Shader::Fragment); // load the shader
 
 	if (!shader.isAvailable()) {
 		std::cout << "The shader is not available\n";
